@@ -1,0 +1,104 @@
+body{background-color: black;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    top: 0;left: 0;
+    background-color: #7b7b7b;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    background-image: url(https://i.pinimg.com/originals/96/61/04/966104b6efea50fe49647e396c7af6dc.jpg);
+    background-position:center;
+    background-size: cover;
+    opacity: 0.9;
+  }
+  li a {
+    display: block;
+    color: rgb(255, 253, 253);
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  li a.active {
+    background-color: #190167;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: rgb(235, 233, 233);
+    transition: 0.4s;
+  }
+  .content{
+    background-color: rgba(12, 81, 254, 0);
+    width:1100px;
+    height: 200px;
+    margin-left: 400px;
+    text-align: center;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: bisque; font-size: larger;
+  }
+  .ff{background-color: rgb(85, 2, 108);}
+  #hi{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+  }
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #007ffe;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  img:hover{
+    transform: scale(105%);
+    opacity: 0.7;
+    transition-duration: 0.5s;}
+   
+   img{
+    border-radius: 8px;
+    
+   } 
+   ul:hover{
+    opacity: 1;transition: 0.5s;
+   }
+  .button:hover{
+    opacity: 0.8;
+  }
